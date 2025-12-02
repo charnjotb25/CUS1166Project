@@ -108,13 +108,15 @@ You should now see the VC3 schema on the left sidebar.
 1. Right-click Tables → Create Table
 2. Set Table Name: `client`
 3. Add the following columns:
-   | Column Name | Type        | NN |
-   | ----------- | ----------- | -- |
-   | name        | VARCHAR(45) | ✔  |
-   | Id          | VARCHAR(45) | ✔  |
-   | deadline    | VARCHAR(45) | ✔  |
 
-4. Click Apply → Finish
+| Column Name | Type        | Not Null (NN) | Description              |
+| ----------- | ----------- | ------------- | ------------------------ |
+| name        | VARCHAR(45) | ✔             | Task owner’s name        |
+| Id          | VARCHAR(45) | ✔             | Unique ID                |
+| deadline    | VARCHAR(45) | ✔             | Job deadline information |
+
+
+5. Click Apply → Finish
 
 To view rows:
 Right-click the `client` table → Select Rows
@@ -127,14 +129,16 @@ This table stores task owner information.
 1. Right-click Tables → Create Table
 2. Set Table Name: `vehicleowner`
 3. Add the following columns:
-    | Column Name    | Type        | NN |
-    | -------------- | ----------- | -- |
-    | vehicleOwnerId | VARCHAR(45) | ✔  |
-    | model          | VARCHAR(45) | ✔  |
-    | licenseNumber  | VARCHAR(45) | ✔  |
-    | residencyTime  | VARCHAR(45) | ✔  |
+   
+| Column Name    | Type        | Not Null (NN) | Description          |
+| -------------- | ----------- | ------------- | -------------------- |
+| vehicleOwnerId | VARCHAR(45) | ✔             | Owner’s ID           |
+| model          | VARCHAR(45) | ✔             | Vehicle model        |
+| licenseNumber  | VARCHAR(45) | ✔             | License plate        |
+| residencyTime  | VARCHAR(45) | ✔             | Time spent in region |
 
-4. Click Apply → Finish
+
+5. Click Apply → Finish
 
 To view rows:
 Right-click the `vehicleowner` table → Select Rows
