@@ -59,6 +59,16 @@ UML Design: https://lucid.app/publicSegments/view/d98c9ae8-ba25-4c3c-83da-9cc8a9
 * Added Vehicler Owner (Client) to authorized Vehicles stored. 
 * Messages can be sent between Clients and Servers to authorize or reject information
 
+### Milestone 6: SQL Database
+* Integrated a MySQL database into the existing client–server model.
+* The system now supports storing data for both Task Owners (Clients) and Vehicle Owners.
+* Clients submit their information to the VC Controller (Server).
+* The VC Controller displays the request and provides Accept or Reject buttons.
+* If Accepted, the submitted data is inserted into the appropriate MySQL table.
+* If Rejected, the data is not inserted into the database.
+* Vehicle Owners follow the same workflow: submit → server reviews → accept/reject → optional database insertion.
+* The server sends a response message back to each user indicating whether their request was approved or denied.
+
 ---
 ## 🚀 Full Deployment & Setup Guide
 
