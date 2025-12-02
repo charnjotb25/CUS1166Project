@@ -112,11 +112,11 @@ This table stores task owner information.
 2. Set Table Name: `vehicleowner`
 3. Add the following columns:
     | Column Name    | Type        | NN |
-| -------------- | ----------- | -- |
-| vehicleOwnerId | VARCHAR(45) | ✔  |
-| model          | VARCHAR(45) | ✔  |
-| licenseNumber  | VARCHAR(45) | ✔  |
-| residencyTime  | VARCHAR(45) | ✔  |
+    | -------------- | ----------- | -- |
+    | vehicleOwnerId | VARCHAR(45) | ✔  |
+    | model          | VARCHAR(45) | ✔  |
+    | licenseNumber  | VARCHAR(45) | ✔  |
+    | residencyTime  | VARCHAR(45) | ✔  |
 
 4. Click Apply → Finish
 
