@@ -65,7 +65,7 @@ UML Design: https://lucid.app/publicSegments/view/d98c9ae8-ba25-4c3c-83da-9cc8a9
 This section provides step-by-step instructions to deploy, configure, and run the Vehicular Cloud Resource Task System (VCRTS). Follow each step carefully to ensure the server-client system, database, and data files operate correctly.
 
 ---
-📌 1. Forking & Cloning the Repository
+### 📌 1. Forking & Cloning the Repository
 To begin working with this project, first create your own local copy of the codebase.
 #### Step 1 — Fork the Repository:
   1. Navigate to the project’s GitHub page.
@@ -213,7 +213,7 @@ If Rejected:
 - Data is NOT added to the database
 
 --- 
-📌 7. Looping or Ending the Session
+### 📌 7. Looping or Ending the Session
 After receiving the server response, the client may:
 - Type yes → submit another entry
 - Type exit → close the connection
