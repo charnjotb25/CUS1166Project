@@ -60,29 +60,45 @@ UML Design: https://lucid.app/publicSegments/view/d98c9ae8-ba25-4c3c-83da-9cc8a9
 * Messages can be sent between Clients and Servers to authorize or reject information
 
 ---
-## 🚀 How to Deploy & Run the Project
+## 🚀 Full Deployment & Setup Guide
 
-This guide explains how to fork the project, set up the MySQL database, configure the code, and run both the server and client applications.
+This section provides step-by-step instructions to deploy, configure, and run the Vehicular Cloud Resource Task System (VCRTS). Follow each step carefully to ensure the server-client system, database, and data files operate correctly.
 
 ---
-### 📌 1. Fork & Clone the Repository
+📌 1. Forking & Cloning the Repository
+To begin working with this project, first create your own local copy of the codebase.
+#### Step 1 — Fork the Repository:
+  1. Navigate to the project’s GitHub page.
+  2. Click the Fork button located in the upper-right corner.
+  3. A copy of the repository will be created under your own GitHub account.
 
-1. Go to the GitHub repository page.
-2. Click “Fork” to create your own copy.
-3. Copy the URL of your forked repository.
-4. Open Eclipse or any Git-compatible IDE.
-5. Clone the repository into your workspace:
-     - File → Import → Git → Clone URI
-     - Paste the repository URL
-     - Pull all project components
+#### Step 2 — Clone the Forked Repository
+  1. Open your forked version of the repository.
+  2. Click the green Code button.
+  3. Copy the repository URL (HTTPS preferred).
+
+#### Step 3 — Import into Your IDE
+You may use Eclipse, IntelliJ, VS Code, or any IDE that supports Git.
+
+In Eclipse:
+  1. Go to File → Import
+  2. Select Git → Clone URI
+  3. Paste your repository URL
+  4. Click Next and allow Eclipse to clone the repo
+  5. Finish the import process and the project will now appear in your workspace
+
+Your local environment now contains a complete copy of the project source code.
 
 --- 
 ### 📌 2. Set Up the MySQL Database in MySQL Workbench
+This application uses a MySQL database named VC3 to store task owner and vehicle owner information.
+You must create the database manually before running the program.
+
 Create the Database Schema
   1. Open MySQL Workbench
   2. Click on Localhost
   3. Click Create a New Schema
-  4. Name it: VC3
+  4. Name it: `VC3`
   5. Click Apply → Finish
 
 You should now see the VC3 schema on the left sidebar.
