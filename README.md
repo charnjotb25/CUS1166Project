@@ -197,7 +197,7 @@ When you type "yes" on the client side:
        “Welcome to Vehicular Cloud Console”
   3. Choose one of the two main options:
        - owner → vehicle owner entering vehicle data
-       - client → task owner submitting a job📌 5. Using the GUI Windows
+       - client → task owner submitting a job
 
 Once you make a choice:
   1. A form window opens
