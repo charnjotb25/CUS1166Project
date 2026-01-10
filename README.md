@@ -33,7 +33,7 @@
 * Main Frame contains GUI methods and reads user-input of Vehicle Owner information/Client Job information to .txt files for storage and later use
 
 ### Milestone 3: Class design
-UML Design: https://lucid.app/publicSegments/view/d98c9ae8-ba25-4c3c-83da-9cc8a983cc6e/image.pdf
+UML Design: 
 
 ![image](UML%20Diagram/VCRTS_UML_Diagram.png)
 
